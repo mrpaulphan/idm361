@@ -143,11 +143,10 @@ Students are urged to consult with individual faculty members, academic departme
 ## Drexel University Policy on Cheating:
 
 Cheating is an act or an attempted act of deception by which a student seeks to misrepresent that he or she has mastered information on an academic exercise that he/she has not mastered. Examples include, but are not limited to:
-
-    Copying from another student’s test paper -Allowing another student to copy from a test paper
-    Unauthorized use of course textbook or other materials, such as a notebook to complete a test or other assignment from the faculty member
-    Collaborating on a test, quiz, or other project with any other person(s) without authorization
-    Using or processing specifically prepared materials during a test such as notes, formula lists, notes written on the students clothing, etc. that are not authorized Taking a test for someone else or permitting someone else to take a test for you
+- Copying from another student’s test paper -Allowing another student to copy from a test paper
+- Unauthorized use of course textbook or other materials, such as a notebook to complete a test or other assignment from the faculty member
+- Collaborating on a test, quiz, or other project with any other person(s) without authorization
+- Using or processing specifically prepared materials during a test such as notes, formula lists, notes written on the students clothing, etc. that are not authorized Taking a test for someone else or permitting someone else to take a test for you
 
 ## American's With Disabilities :
 
