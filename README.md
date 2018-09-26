@@ -1,13 +1,14 @@
-# IDM361 - Interactive App Design I
+# 👨🏽‍💻 IDM361 - Interactive App Design I
 
 ## Overview
 
 This course focuses on creating user experience optimized for mobile devices. Students learn to build unique applications that take advantage of gestures and accelerometers. Special consideration is given to limited screen real estate, low bandwidth internet access, no internet access, and touch screen devices.
 
+
 ## Instructors
 **Name:** Paul Phan
 
-**Email:** pp455@drexel.edu
+**Email:** paul.phan@drexel.edu
 
 **Appointments:** Meetings available by appointment with 48 hour notice via [Zoom](https://zoom.us/)
 
@@ -79,25 +80,27 @@ Homework and Project grades based upon three criteria, Specifications, Content, 
 
 Attendance is mandatory. Students are expected to attend all classes and strictly adhere to the project due dates. Lack of participation in class discussions will count against your grade.
 
-Students are allowed one unexcused absence.
-If a student has more than one unexcused absence, his or her grade for the course will be reduced one letter grade.
-If a student has three or more absences, he or she will receive an F grade.
+**Students are allowed one unexcused absence.**
 
+**If a student has more than one unexcused absence, his or her grade for the course will be reduced one letter grade.**
+
+**If a student has three or more absences, he or she will receive an F grade.**
 Arriving late to class will result in the loss of one final grade point for each lateness.
 ## Grading Percents:
-Points 	Grade
-100% or above 	A+
-95% to 99% 	A
-90% to 94% 	A-
-88% to 89% 	B+
-83% to 87% 	B
-80% to 82% 	B-
-78% to 79% 	C+
-73% to 77% 	C
-70% to 72% 	C-
-68% to 69% 	D+
-65% to 67% 	D
-64% or below 	F
+| Points        | Grade |
+|---------------|-------|
+| 100% or above | A+    |
+|95% to 99%| 	A|
+|90% to 94%| 	A-|
+|88% to 89%| 	B+|
+|83% to 87%| 	B|
+|80% to 82%| 	B-|
+|78% to 79%| 	C+|
+|73% to 77%| 	C|
+|70% to 72%| 	C-|
+|68% to 69%| 	D+|
+|65% to 67%| 	D|
+|64% or below| 	F|
 
  
 ## Student Responsibility:
