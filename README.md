@@ -151,13 +151,21 @@ Cheating is an act or an attempted act of deception by which a student seeks to 
 ## American's With Disabilities :
 
 In compliance with Section 504 of the Rehabilitation Act of 1973, the Americans with Disabilities Act of 1990, and applicable federal and state laws, Drexel University ensures people with disabilities will have an equal opportunity to participate in its programs and activities. Members and guests of the Drexel community who have a disability need to register with the Office of Disability Services (ODS), if requesting auxiliary aids, accommodations, and services to participate in Drexel University’s programs. All requests for reasonable and appropriate auxiliary aids, academic adjustments, and services will be considered on a case-by-case basis and in a timely fashion.
+
 Office of Disability Services
+
 3201 Arch Street, Suite 210
+
 Philadelphia, PA 19104
+
 Phone: 215.895.1401
+
 TTY: 215.895.2299 (Reserved for those who are deaf or hard of hearing)
+
 Fax: 215.895.1402
+
 E-mail: disability@drexel.edu
+
 Acknowledging Conditions and Obligations in Syllabus:
 
 The student acknowledges receipt of this syllabus and the information herein contained by continuing to attend classes and turn in assignments.
