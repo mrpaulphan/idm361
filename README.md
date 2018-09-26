@@ -127,19 +127,20 @@ Drexel University allows students to drop a course through the end of the sixth 
 Academic Honesty Policy:
 
 Drexel University is committed to a learning environment that embraces academic honesty. Faculty, students, and administrators share responsibility for maintaining this environment of academic honesty and integrity, accepting individual responsibility for all actions, personal and academic. Each member of our community is expected to read, understand, and uphold the values identified and described in our "Academic Polices, Procedures and Regulations" as written in the official student handbook. Instances of academic dishonesty, such as cheating and plagiarism, will be dealt with appropriately.
-Plagiarism Policy:
+
+## Plagiarism Policy:
 
 Plagiarism is the inclusion of someone else’s words, ideas, or data as one’s own work. When a student submits work for credit that includes the words, ideas, or data of others, the source of that information must be acknowledged through complete, accurate, and specific references, and, if verbatim statements are included, through quotation marks as well. By placing his/her name on work submitted for credit, the student certifies the originality of all work not otherwise identified by appropriate acknowledgments. Plagiarism covers unpublished as well as published sources. Examples of plagiarism include, but are not limited to:
-
-    Quoting another person’s actual words, complete sentences or paragraphs, or an entire piece of written work without acknowledgment of the source
-    Using another person’s ideas, opinions, or theory, even if it is completely paraphrased in one’s own words without acknowledgment of the source
-    Borrowing facts, statistics, or other illustrative materials that are not clearly common knowledge without acknowledgment of the source
-    Copying another student’s essay test answers
-    Copying, or allowing another student to copy, a computer file that contains another student’s assignment, and submitting it, in part or in its entirety, as one’s own
-    Working together on an assignment, sharing the computer files and programs involved, and then submitting individual copies of the assignment as one’s own individual work
+- Quoting another person’s actual words, complete sentences or paragraphs, or an entire piece of written work without acknowledgment of the source
+- Using another person’s ideas, opinions, or theory, even if it is completely paraphrased in one’s own words without acknowledgment of the source
+- Borrowing facts, statistics, or other illustrative materials that are not clearly common knowledge without acknowledgment of the source
+- Copying another student’s essay test answers
+- Copying, or allowing another student to copy, a computer file that contains another student’s assignment, and submitting it, in part or in its entirety, as one’s own
+- Working together on an assignment, sharing the computer files and programs involved, and then submitting individual copies of the assignment as one’s own individual work
 
 Students are urged to consult with individual faculty members, academic departments, or recognized handbooks in their field if in doubt regarding issues of plagiarism.
-Drexel University Policy on Cheating:
+
+## Drexel University Policy on Cheating:
 
 Cheating is an act or an attempted act of deception by which a student seeks to misrepresent that he or she has mastered information on an academic exercise that he/she has not mastered. Examples include, but are not limited to:
 
@@ -161,141 +162,3 @@ E-mail: disability@drexel.edu
 Acknowledging Conditions and Obligations in Syllabus:
 
 The student acknowledges receipt of this syllabus and the information herein contained by continuing to attend classes and turn in assignments.
-
-Hey Aaron,
-
-Welcome BACK to the DIGM fam. 8-) 
-
-Below you will find links to IDM-361 course material, instructor working lecture samples, etc. Please take some time to review them all and then let me know when (dates and times) you would like to discuss in person or via Goggle hangouts.
-
-BBlearn template HTML files:
-http://digm.drexel.edu/bblearn/idm361-syllabus.html
-http://digm.drexel.edu/bblearn/idm361-agenda.html
-http://digm.drexel.edu/bblearn/idm361-case-study.html
-http://digm.drexel.edu/bblearn/idm361-classroster-template.html
-
-Working lecture examples:
-http://digm.drexel.edu/bblearn/idm361_instructor/add2home.zip
-http://digm.drexel.edu/bblearn/idm361_instructor/w02-basicwebapp-00.zip
-http://digm.drexel.edu/bblearn/idm361_instructor/w02-basicwebapp-css-rotate.zip
-http://digm.drexel.edu/bblearn/idm361_instructor/w03-basicwebapp-icon-00.zip
-http://digm.drexel.edu/bblearn/idm361_instructor/w03-basicwebapp-icon-jwt.zip
-http://digm.drexel.edu/bblearn/idm361_instructor/w04-basicwebapp-add2home-00.zip
-http://digm.drexel.edu/bblearn/idm361_instructor/w04-basicwebapp-add2home-jwt.zip
-http://digm.drexel.edu/bblearn/idm361_instructor/w05-WhoGoesFirst-nav-jwt.zip
-http://digm.drexel.edu/bblearn/idm361_instructor/w06-WhoGoesFirst-storage-array.zip
-
-Some student final samples:
-http://martinacalluori.com/idm361/final/index.html
-https://maximilianberndt.com/test/idm361/dd1213/
-http://vlstewart.com/idm361/final/
-https://axelmortimer.com/idm361/final/
-http://kristenerehm.com/IDM361/final/
-
-Jervis Thompson: Teaching Professor of Interactive Digital Media | AWCOMAD | Drexel University
-URBN Center room 230A, Phone: 215-895-5937 
-email st966rc2@drexel.edu | url digm.drexel.edu
-
-On Aug 10, 2018, at 9:39 AM, Finamore,Troy <twf23@drexel.edu> wrote:
-
-Hi Daphney-
- 
-We would like to hire Aaron Grando to teach the following course in the Fall Quarter:
- 
-IDM
-361
-Studio-Lecture
-Face To Face
-002
-13476
-Interactive App Design I
-R
-12:30 pm - 03:20 pm
- 
-Can you please assist with the contracts.
- 
-Regards,
- 
-Troy W. Finamore
-Program Director, Interactive Digital Media 
-T:215.895.2012 | Calendar
- 
-Department of Digital Media
-Westphal College of Media Arts & Design
-Drexel University
-3501 Market Street, URBN-230-C
-Philadelphia, PA 19104
- 
-IDM Lab | Instagram | Facebook | YouTube
- 
- 
-From: Aaron Grando <aaron.grando@gmail.com>
-Date: Thursday, August 9, 2018 at 6:18 PM
-To: "Finamore,Troy" <twf23@drexel.edu>
-Subject: Re: DrexelTeaching Opportunity
- 
-Hey Troy, 
-
-Next Thursday at noon works! Let me know where I should meet you.
-
-And no, I’m back in Philly! Travel will be all of 15 mins from My office at Broad & Chestnut. No worries there.
-
-Thanks!
-Aaron 
-On Wed, Aug 8, 2018 at 10:55 PM Finamore,Troy <twf23@drexel.edu> wrote:
-Hi Aaron-
- 
-Jervis and I are only on campus on Thursdays. How about next Thurs, Aug 16 at Noon.
- 
-I am prepared to offer you the class, and we can discuss it in more detail when we meet, but I have one question for you first. Your resume says you live in Manhattan. Is this still true? That is a heck of a commute. I know, I did Brooklyn > Philly for two years.
- 
-Regards,
- 
-Troy W. Finamore
-Program Director, Interactive Digital Media 
-T:215.895.2012 | Calendar
- 
-Department of Digital Media
-Westphal College of Media Arts & Design
-Drexel University
-3501 Market Street, URBN-230-C
-Philadelphia, PA 19104
- 
-IDM Lab | Instagram | Facebook | YouTube
- 
- 
-From: Aaron Grando <aaron.grando@gmail.com>
-Date: Tuesday, August 7, 2018 at 5:41 PM
-To: "Finamore,Troy" <twf23@drexel.edu>
-Subject: Re: DrexelTeaching Opportunity
- 
-Hi Troy –
- 
-I'm not able to make it on Thursday (I'm taking my Dad out to the Eagles preseason opener in the afternoon, so my morning hours at work are not skippable), but I could possibly do tomorrow or Friday this week.
-
-My (admittedly somewhat out of date) CV can be found here: https://gran.do/cv - my bona fides, in broader strokes, remain the same as written there, but I've since been promoted to Technology Director (the Creative Director equivalent role on RTO+P's digital team). I'll make it a priority to update this documentation over the next few days with more up-to-date info and links, if the opportunity remains a possibility.
- 
-Thanks!
-Aaron
- 
- 
-On Mon, Aug 6, 2018 at 12:37 PM Finamore,Troy <twf23@drexel.edu> wrote:
-Hi Aaron
- 
-Are you available to meet this Thursday between 9 & 12?
- 
-Also, can you send me your resume?
- 
-Regards,
- 
-Troy W. Finamore
-Program Director, Interactive Digital Media 
-T:215.895.2012 | Calendar
- 
-Department of Digital Media
-Westphal College of Media Arts & Design
-Drexel University
-3501 Market Street, URBN-230-C
-Philadelphia, PA 19104
- 
-IDM Lab | Instagram | Facebook | YouTube
