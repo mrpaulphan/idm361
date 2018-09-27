@@ -72,14 +72,14 @@ http://kristenerehm.com/IDM361/final/
 
 Homework Projects, based upon skill sets covered in each lesson, will be due before midnight the night before the following class. Each homework assignment is graded based on technique, creativity and being submitted on time.
 
-The dates your assignments are due are indicated clearly in this course outline. Assignments are due on those dates unless you have submitted a written request for an extension at least one class before the assignment is due. Late assignments receive a 50% reduction in points, no exceptions.
+The dates your assignments are due are indicated clearly in this course outline. Assignments are due on those dates unless you have submitted a written request for an extension at least one class before the assignment is due.
 
 Homework and Project grades based upon three criteria, Specifications, Content, and Creativity, broken down as follows:
 
 **Specifications**:
 
 - Files/e-mails are named appropriately
-    - Assignments requiring email submission should be sent to your instructor using the following format for the subject of the email: IDM361hwk01s001jwt123. "hwk01" represents the homework number, "s001" represents the section number, and "jwt123" with your email prefix. Submissions not following this format will not filter properly and not be accepted. No exceptions.
+    - Assignments requiring submission should be sent to your instructor using the following format for the subject of the email: idm361-hwk01s-001-pp455. "hwk01" represents the homework number, "s001" represents the section number, and "pp455" with your email prefix. Submissions not following this format will not filter properly and not be accepted. No exceptions.
 - Assignments meet project size/color requirements
 - Assignments are completed on time
 
