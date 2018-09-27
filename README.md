@@ -53,6 +53,13 @@ Description: Students will build a HTML5/CSS3/Javascript based Mobile Web Applic
 - 40% Homework (5 hwks * 8 points each)
 - Extra Credit
 - 60% Final
+  
+## Homework Assignments
+    1st late = -15%
+    2nd late = automatic zero
+## Midterm/Final
+    1 day late = -10%
+    2 days late = automatic zero
 
 Homework Projects, based upon skill sets covered in each lesson, will be due before midnight the night before the following class. Each homework assignment is graded based on technique, creativity and being submitted on time.
 
