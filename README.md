@@ -39,11 +39,17 @@ Due Midnight before Week 11
 Students will build a HTML5/CSS3/Javascript based Mobile Web Application. Students will balance issues of device resolutions, online/offline, typography, color scheme, design, graphics, functionality, and readability. This mobile web app will be fully functional on apple iOS iPod Touch, and iPhones. This mobile web app will be engaging and pleasing to the eye as determined by class professor. Required media include text, graphics, approved color scheme.
 
 **Some student final samples:**
+
 http://martinacalluori.com/idm361/final/index.html
+
 https://maximilianberndt.com/test/idm361/dd1213/
+
 http://vlstewart.com/idm361/final/
+
 https://axelmortimer.com/idm361/final/
+
 http://kristenerehm.com/IDM361/final/
+
 
 ## Grading Policy:
 **Grading**
