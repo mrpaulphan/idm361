@@ -17,7 +17,7 @@
 - Upload your web app to your domain and "install" it on your mobile device
 
 **Create your wireframe screen(s):**
-- One detailed wireframe image for EVERY screen in your final project web app
+- Detailed annotated wireframes image for EVERY screen in your final project web app
 - Clearly define your content, buttons, input areas, output areas, etc
 
 ## How to Submit
@@ -25,4 +25,5 @@ Submit your homework via Blackboard. The link to your wireframes should list eve
 
 **Example**
 Update face app: `{your-url}/idm361/hwk03/`
+
 Wireframes: `{your-url}/idm361/hwk03/wireframes/`
