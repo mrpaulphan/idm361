@@ -16,8 +16,8 @@ Create an interactive prototype with [invision](https://www.invisionapp.com/). U
 
 
 ## How to Submit
-Submit a link to your prototype via Blackboard. 
+Submit a link to your prototype via Blackboard. (On this page, include a link to your prototype).
 
 **Example**
-Update face app: `{your-url}/idm361/hwk04/` (On this page, include a link to your prototype).
+Prototype: `{your-url}/idm361/hwk04/`. 
 
