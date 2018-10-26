@@ -1,0 +1,45 @@
+.c-body {
+  background-color: #B1D1E1;
+}
+
+.l-wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.c-face {
+  width: 100px;
+  height: 100px;
+  margin: 90px auto 10px;
+  background: url(../img/face_smile.svg);
+}
+
+.c-output {
+  text-align: center;
+}
+
+@media only screen and (orientation:portrait) {
+  .c-body {
+  	background-color: #B1D1E1;
+  }
+  .c-face {
+  	margin: 90px auto 10px;
+  	background: url(../img/face_smile.svg);
+  }
+  .c-output:after {
+  	content: "Portrait Mode";
+  }
+}
+
+@media only screen and (orientation:landscape) {
+  .c-body {
+  	background-color: #FBF128;
+  }
+  .c-face {
+  	margin: 40px auto 10px;
+  	background: url(../img/face_frown.svg);
+  }
+  .c-output:after {
+  	content: "Landscape Mode";
+  }
+}
