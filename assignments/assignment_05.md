@@ -14,7 +14,7 @@ Code all the pages from your designs and add the navigation. Make sure we can na
 - Zero warnings
 
 
-*I'd recommend you work on your app this using MAMP. This will ensure you will not run into some of the same issues I ran into. *
+_I'd recommend you work on your app this using MAMP when working locally. This will ensure you will not run into some of the same issues I ran into._
 
 ## How to Submit
 Submit a link to your beta app via Blackboard. 
