@@ -11,6 +11,7 @@ The core functionality is **not** needed in this version. Just make sure the app
 - NO place holder images or text!
 - Splash Screen
 - App Icon
+- Add 2 home screen functionality
 - Screen navigation functionality
 - Zero errors
 - Zero warnings
