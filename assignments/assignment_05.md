@@ -2,7 +2,9 @@
 
 ## Beta App
 Create a Pre-Beta version of your final project. 
-Code all the pages from your designs and add the navigation. Make sure we can navigate through the app. The core functionality is not needed in this version. Just make sure the app matches your design and we can navigate throughout the app. 
+Code all the pages from your designs and add the navigation. Make sure we can navigate throughout the app. 
+
+The core functionality is **not** needed in this version. Just make sure the app matches your design and we can navigate it. 
 
 **Make sure your app includes:**
 - Final images, buttons, etc.
