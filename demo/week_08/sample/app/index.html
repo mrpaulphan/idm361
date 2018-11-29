@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.manifest">
+
+  <head>
+    <title>My Weight Loss Journey</title>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, maximum-scale=1.0">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <!-- Sets the style of the status bar for a web application. Values ['black', 'default', 'black-translucent'] -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <!-- Make the app title different than the page title. -->
+    <meta name="apple-mobile-web-app-title" content="My Weight">
+
+    <!-- Disable automatic phone number detection. -->
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Splash Screen -->
+
+    <!-- iPhone X (1125px x 2436px) -->
+    <link href="dist/img/apple-launch-1125x2436.png" rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)">
+    <!-- iPhone 8, 7, 6s, 6 (750px x 1334px) -->
+    <link href="dist/img/apple-launch-750x1334.png" rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)">
+    <!-- iPhone 8 Plus, 7 Plus, 6s Plus, 6 Plus (1242px x 2208px) -->
+    <link href="dist/img/apple-launch-1242x2208.png" rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)">
+
+    <!-- **** ICONS **** -->
+    <!-- ** IPADS ** -->
+    <!-- iPad retina icon -->
+    <link href="dist/img/face-icon-152x152.png" sizes="152x152" rel="apple-touch-icon">
+    <!-- iPad retina icon (iOS < 7) -->
+    <link href="dist/img/face-icon-144x144.png" sizes="144x144" rel="apple-touch-icon">
+    <!-- iPad non-retina icon -->
+    <link href="dist/img/face-icon-76x76.png" sizes="76x76" rel="apple-touch-icon">
+    <!-- iPad non-retina icon (iOS < 7) -->
+    <link href="dist/img/face-icon-72x72.png" sizes="72x72" rel="apple-touch-icon">
+
+    <!-- ** IPHONES ** -->
+    <!-- iPhone 6 Plus icon -->
+    <link href="dist/img/face-icon-180x180.png" sizes="180x180" rel="apple-touch-icon">
+    <!-- iPhone retina icon (iOS < 7) -->
+    <link href="dist/img/face-icon-114x114.png" sizes="114x114" rel="apple-touch-icon">
+    <!-- iPhone non-retina icon (iOS < 7) -->
+    <link href="dist/img/face-icon-57x57.png" sizes="57x57" rel="apple-touch-icon">
+
+    <!-- CSS -->
+    <link href="dist/css/normalize.css" rel="stylesheet">
+    <link href="dist/css/add2home.css" rel="stylesheet">
+    <link href="dist/css/app.css" rel="stylesheet">
+  </head>
+
+  <body class="c-body">
+    <!-- Portrait View -->
+    <div class="l-orientation--portrait c-page">
+      <header class="c-header">
+        <h1 class="c-header__item c-header__title">Weight Tracker</h1>
+      </header>
+
+      <main class="l-wrapper c-main">
+        <p>Hello <span class="js-fullname"></span></p>
+        <ul>
+          <li>Current Weight: <b>0lbs</b></li>
+          <li>Start Weight: <b>0lbs</b></li>
+          <li>Change: <b>0lbs</b></li>
+        </ul>
+      </main>
+
+      <footer class="c-footer">
+        <nav class="c-nav-main">
+          <ul class="c-nav-main__group">
+            <li class="c-nav-main__item"><button class="c-nav-main__button" data-page="/" onclick="routeTo(this)">Summary</button></li>
+            <li class="c-nav-main__item"><button class="c-nav-main__button" data-page="entries.html" onclick="routeTo(this)">Entries</button></li>
+            <li class="c-nav-main__item"><button class="c-nav-main__button" data-page="add.html" onclick="routeTo(this)">Add</button></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+    <!-- Landscape View -->
+    <div class="l-orientation--landscape">
+      <h2>Rotate your device to portrait view.</h2>
+    </div>
+    <!-- JAVASCRIPT-->
+    <script>
+    //	Customize configuration variable BEFORE loading addToHome.js file
+    var addToHomeConfig = {
+      touchIcon: true
+    };
+
+    </script>
+    <script src="dist/js/add2home.js"></script>
+    <script src="dist/js/app.js"></script>
+  </body>
+
+</html>
