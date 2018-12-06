@@ -1,12 +1,12 @@
 CACHE MANIFEST
-# 10-31-2018: v0.01
+# v2 - 2011-08-13
 
 CACHE:
 
 # HTML FILES
 index.html
 entries.html
-settings.html
+landing.html
 add.html
 
 # CSS
@@ -20,6 +20,7 @@ dist/js/app.js
 
 # IMAGES
 dist/img/splash-screen.jpg
+dist/img/apple-launch-750x1334.png
+dist/img/apple-launch-1125x2436.png
+dist/img/apple-launch-1242x2208.png
 
-## Any resources not listed above will require the user to be online.
-NETWORK:

@@ -3,7 +3,7 @@
  */
 function init()
 {
-  // checkForAppUpdates();
+  checkForAppUpdates();
   setCurrentPage();
 }
 
@@ -69,7 +69,6 @@ function deleteEntry(deleteThisDate)
   // Loop through all object in the array
   for (x in entries)
   {
-
     console.log(x);
     var date = entries[x].date;
     // Check if date matches
@@ -213,17 +212,16 @@ function routeTo(thisButton)
 
 function checkForAppUpdates()
 {
-  window.applicationCache.addEventListener('updateready', function(e)
+  window.applicationCache.addEventListener('updateready', onUpdateReady);
+  if (window.applicationCache.status === window.applicationCache.UPDATEREADY)
   {
-    if (window.applicationCache.status === window.applicationCache.UPDATEREADY)
+    if (confirm('Updates are available for this mobile web app. Load them?'))
     {
-      if (confirm('Updates are available for this mobile web app. Load them?'))
-      {
-        window.applicationCache.swapCache();
-        window.location.reload();
-      }
+      window.applicationCache.swapCache();
+      window.location.reload();
     }
-  });
+  }
+
 }
 
 init();

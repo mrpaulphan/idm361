@@ -60,32 +60,7 @@ function loadEntriesData()
     ';
   }
   // Add row
-}
 
-function deleteEntry(deleteThisDate)
-{
-  var entries = this.getEntries();
-  console.log(entries);
-  // Loop through all object in the array
-  for (x in entries)
-  {
-
-    console.log(x);
-    var date = entries[x].date;
-    // Check if date matches
-    if (date == deleteThisDate)
-    {
-      console.log('Match');
-      // Remove that entry from array
-      entries.splice(x, 1);
-      break;
-    }
-  }
-  // Updated local storage with new array
-  this.saveEntries(entries);
-  // Reload Page
-  location.reload();
-}
 /**
  * Get all weight entries and return it
  */
