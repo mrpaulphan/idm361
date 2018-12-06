@@ -3,123 +3,27 @@
  */
 function init()
 {
-  // checkForAppUpdates();
   setCurrentPage();
-}
-
-
-/**
- * Runs when index.html is loaded. This is the first page thats loaded every time
- */
-function loadHomeData()
-{
-  checkFirstLaunch();
-  var fullNameElement = document.querySelector('.js-fullname');
-  var firstName = localStorage.getItem('firstName');
-  var lastName = localStorage.getItem('lastName');
-  fullNameElement.innerHTML = firstName + ' ' + lastName;
-}
-
-
-/**
- * Runs when entries.html is loaded
- */
-function loadEntriesData()
-{
-
-  // var entries = [
-  //   {
-  //     date: "2018-11-15",
-  //     weight: "32"
-  //   },
-  //   {
-  //     date: "2018-11-16",
-  //     weight: "322323"
-  //   }
-  // ]
-  var entries = this.getEntries();
-  console.log(entries);
-  var entriesGroup = document.querySelector('.js-entries-group');
-
-  // Loop through all object in the array
-  for (x in entries)
-  {
-
-    var weight = entries[x].weight;
-    var date = entries[x].date;
-    entriesGroup.innerHTML += '\
-    <li class="c-entries__button">\
-      <div class="c-entries__data">\
-        <p class="c-entries__weight">' + weight + 'lbs</p>\
-        <p class="c-entries__date">' + date + '</p>\
-      </div>\
-      <div class="c-entries__actions">\
-        <button onclick="deleteEntry(\'' + date + '\')">Delete</button>\
-      </div>\
-    </li>\
-    ';
-  }
-  // Add row
-
-/**
- * Get all weight entries and return it
- */
-function getEntries()
-{
-  // Get all entries
-  var entries = localStorage.getItem('weightEntries');
-  // Convert the string back into an array of objects
-  var parsedEntries = JSON.parse(entries);
-  return parsedEntries;
-}
-
-function saveEntries(arrayOfEntries)
-{
-  // Convert object to string for local storage
-  newUpdatedEntries = JSON.stringify(arrayOfEntries);
-  // Store array of objects
-  localStorage.setItem('weightEntries', newUpdatedEntries);
-}
-
-function storeWeightData()
-{
-  var parsedEntries = this.getEntries();
-
-  var weightInput = document.querySelector('.js-add-weight').value;
-  var dateInput = document.querySelector('.js-add-date').value;
-
-  // Create object
-  var newWeightEntry = {
-    'date': dateInput,
-    'weight': weightInput,
-  }
-
-  // Push new object into current array
-  parsedEntries.push(newWeightEntry);
-
-  this.saveEntries(parsedEntries);
-  return document.location = 'entries.html';
 }
 
 /**
  * This function will check to see if the user has open this app before.
  * It will store data on first launch
  */
-function checkFirstLaunch()
-{
-  // Does this browser support local storage?
-  if (typeof(Storage) !== "undefined")
-  {
+function checkFirstLaunch(){
+  // Check to see if local storage is supported
+  if (typeof(Storage) !== "undefined") {
+    // Browser supports local storage
     var firstLaunch = localStorage.getItem('firstLaunch');
     console.log(firstLaunch);
-    // Check if user has downloaded and opened app.
-    if (firstLaunch == 'true')
-    {
+
+    // Check if user has downloaded and opened the app
+    if (firstLaunch == 'true') {
       return;
     }
 
     // If first time launching app, update item from storage and redirect to landing page
-    firstLaunch = localStorage.setItem('firstLaunch', true);
+    localStorage.setItem('firstLaunch', true);
     // Set all Default values for the app
     localStorage.setItem('currentWeight', 0);
     localStorage.setItem('startWeight', 0);
@@ -127,27 +31,45 @@ function checkFirstLaunch()
     localStorage.setItem('weightEntries', '[]');
 
     return location.href = 'landing.html';
-  }
-  else
-  {
+
+  } else {
     // Sorry! No Web Storage support..
     alert('This browser does NOT support local storage');
   }
+}
 
+function loadHomePage() {
+  console.log('Home Page Loaded');
+  // Check to see if this is the first launch
+  this.checkFirstLaunch();
+
+  // Update the page with users full name
+  // Grab the element from the page and assign it to a variable
+  var fullNameElement = document.querySelector('.js-fullname');
+
+  // Get the first and last name from local storage
+  var firstName = localStorage.getItem('firstName');
+  var lastName = localStorage.getItem('lastName');
+
+  // Update the HTML on the page with the users full name
+  fullNameElement.innerHTML = firstName + ' ' +  lastName;
 }
 
 /**
- * Save the users profile from the landing page
+ * This will save the users basic info on first load
  */
-function saveProfile()
-{
+function saveProfile() {
+  // Get the values of ever input field
   var firstName = document.querySelector('#firstName').value;
   var lastName = document.querySelector('#lastName').value;
   var unit = document.querySelector('#unit').value;
 
+  // store those values into our local storage
   localStorage.setItem('firstName', firstName);
   localStorage.setItem('lastName', lastName);
   localStorage.setItem('unit', unit);
+
+  // Redirect the user to the home page
   return location.href = 'index.html';
 }
 
@@ -186,19 +108,86 @@ function routeTo(thisButton)
   return location.href = pathToPage;
 }
 
-function checkForAppUpdates()
-{
-  window.applicationCache.addEventListener('updateready', function(e)
-  {
-    if (window.applicationCache.status === window.applicationCache.UPDATEREADY)
-    {
-      if (confirm('Updates are available for this mobile web app. Load them?'))
-      {
-        window.applicationCache.swapCache();
-        window.location.reload();
-      }
-    }
-  });
+function getEntriesData() {
+  // Get all entries
+  var entries = localStorage.getItem('weightEntries');
+  // Convert string
+  var parsedEntries = JSON.parse(entries);
+
+  // Return the string
+  return parsedEntries;
 }
 
+function storeWeightData() {
+  // weightEntries = [
+  //   {
+  //     'date': '12/10/18',
+  //     'weight': '200'
+  //   },
+  //   {
+  //     'date': '12/11/18',
+  //     'weight': '205'
+  //   },
+  //   {
+  //     'date': '12/12/18',
+  //     'weight': '210'
+  //   }
+  // ]
+   var parsedEntries = this.getEntriesData();
+
+  // Grab values from input field
+  var weightInput = document.querySelector('.js-add-weight').value;
+  var dateInput = document.querySelector('.js-add-date').value;
+
+  // Create object
+  var newWeightEntry = {
+    'date': dateInput,
+    'weight': weightInput
+  };
+
+  parsedEntries.push(newWeightEntry);
+
+  // Convert object to string for local storage
+  newUpdatedEntries = JSON.stringify(parsedEntries);
+
+  // Store array of objects
+  localStorage.setItem('weightEntries', newUpdatedEntries);
+
+  return location.href = 'entries.html';
+
+  // Create an object and store it
+  // Push new object into current array
+  // Save new array
+  // Go to entries page
+}
+
+/**
+ * Its going to go into our local storage, loop through all entries and spit them
+ * out on the screen
+ */
+function loadEntries()
+{
+  var entries = this.getEntriesData();
+
+  // Get group element
+  var entriesGroup = document.querySelector('.js-entries-group');
+  // Loop through all of the entries and create a row and display html
+  for (objectKey in entries) {
+    // Grab weight and date values
+    var weight = entries[objectKey].weight;
+    var date = entries[objectKey].date;
+    entriesGroup.innerHTML += '\
+    <li class="c-entries__button"> \
+      <div class="c-entries__data">\
+        <p class="c-entries__weight">'+ weight +'lb</p>\
+        <p class="c-entries__date">'+ date +'</p>\
+      </div>\
+      <div class="c-entries__actions">\
+        <button>Delete</button>\
+      </div>\
+    </li> ';
+    // Create Custom html and display it
+
+  }
+}
 init();
