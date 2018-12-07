@@ -3,7 +3,7 @@
  */
 function init()
 {
- // checkForAppUpdates();
+  checkForAppUpdates();
   setCurrentPage();
 }
 
@@ -54,7 +54,7 @@ function loadEntriesData()
         <p class="c-entries__date">' + date + '</p>\
       </div>\
       <div class="c-entries__actions">\
-        <button>Delete</button>\
+        <button onclick="deleteEntry(\''+ date +'\')" >Delete</button>\
       </div>\
     </li>\
     ';
@@ -65,7 +65,7 @@ function loadEntriesData()
 function deleteEntry(deleteThisDate)
 {
   var entries = this.getEntries();
-  console.log(entries);
+  console.log(deleteThisDate);
   // Loop through all object in the array
   for (x in entries)
   {

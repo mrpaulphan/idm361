@@ -1,0 +1,25 @@
+CACHE MANIFEST
+# v1.0.0 - 12/6/18
+
+CACHE:
+# HTML FILES
+add.html
+entries.html
+index.html
+landing.html
+
+# CSS
+dist/css/add2home.css
+dist/css/app.css
+dist/css/normalize.css
+
+# JS
+dist/js/add2home.js
+dist/js/app.js
+
+# IMAGES
+dist/img/splash-screen.jpg
+dist/img/apple-launch-750x1334.png
+dist/img/apple-launch-1125x2436.png
+dist/img/apple-launch-1242x2208.png
+
