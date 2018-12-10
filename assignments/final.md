@@ -1,8 +1,5 @@
 # Final Project
-Create a final version of your web app. 
-Code all the pages from your designs and add the navigation. Make sure we can navigate throughout the app. .
-
-The core functionality is **not** needed in this version. Just make sure the app matches your design and we can navigate it. 
+Create a final version of your web app. This app will be tested on an iPhone 8 Simulator. 
 
 **Make sure your app includes:**
 - Portrait and Landscape divs
@@ -15,7 +12,6 @@ The core functionality is **not** needed in this version. Just make sure the app
   - 180x180: iPhone 6 Plus (iOS 8+)
   - 152x152: iPad Retina (iOS 7)
   - 167x167: iPad Pro (iOS 8+)
-- Launch Icon Title using `apple-mobile-web-app-title`
 - [Custom splash screen]() 
   - In order for this image to show, it is important that its dimensions are the same as those of the device the app is run on
 - [Give it a short name]()
@@ -28,6 +24,10 @@ The core functionality is **not** needed in this version. Just make sure the app
   -webkit-touch-callout: none;
   }
   ```
+- Include a README.md file at the root of your project. This file should consist of:
+  - Project Description 
+  - How to user your app
+  - List of Project Features
 - "Add2home" screen functionality
 - App should work offline using local storage
 - Zero errors
