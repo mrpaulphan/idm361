@@ -5,17 +5,17 @@ Create a final version of your web app. This app will be tested on an iPhone 8 S
 - Portrait and Landscape divs
 - Final images, buttons, etc.
 - Complete functionality for ALL pages/screens
-- [Make app standalone]()
-- [Change the status bar]()
-- [Custom icon]()
+- [Make app standalone](https://github.com/mrpaulphan/idm361/blob/master/demo/final/done/app/index.html#L10)
+- [Change the status bar](https://github.com/mrpaulphan/idm361/blob/master/demo/final/done/app/index.html#L13)
+- [Custom icon](https://github.com/mrpaulphan/idm361/blob/master/demo/final/done/app/index.html#L31)
   - 120x120: iPhone Retina (iOS 7)
   - 180x180: iPhone 6 Plus (iOS 8+)
   - 152x152: iPad Retina (iOS 7)
   - 167x167: iPad Pro (iOS 8+)
-- [Custom splash screen]() 
+- [Custom splash screen](https://github.com/mrpaulphan/idm361/blob/master/demo/final/done/app/index.html#L23) 
   - In order for this image to show, it is important that its dimensions are the same as those of the device the app is run on
-- [Give it a short name]()
-- [Disable selection, highlighting, and callouts]()
+- [Give it a short name](https://github.com/mrpaulphan/idm361/blob/master/demo/final/done/app/index.html#L16)
+- [Disable selection, highlighting, and callouts](https://github.com/mrpaulphan/idm361/blob/master/demo/final/done/app/dist/css/app.css#L12)
   - Add this block of code to your app
   ```
   body {
@@ -26,7 +26,7 @@ Create a final version of your web app. This app will be tested on an iPhone 8 S
   ```
 - Include a README.md file at the root of your project. This file should consist of:
   - Project Description 
-  - How to user your app
+  - How to use your app
   - List of Project Features
 - "Add2home" screen functionality
 - App should work offline using local storage
