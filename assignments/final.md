@@ -32,6 +32,8 @@ Create a final version of your web app. This app will be tested on an iPhone 8 S
 - App should work offline using local storage
 - Zero errors
 - Zero warnings
+  - Ignore these warnings: 
+    - `[Deprecation] Application Cache is restricted to secure contexts. Please consider migrating your application to HTTPS, and eventually shifting over to Service Workers. See https://goo.gl/rStTGz for more details.`
 
 
 ## How to Submit
