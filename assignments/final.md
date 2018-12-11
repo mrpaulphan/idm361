@@ -30,10 +30,11 @@ Create a final version of your web app. This app will be tested on an iPhone 8 S
   - List of Project Features
 - "Add2home" screen functionality
 - App should work offline using local storage
-- Zero errors
-- Zero warnings
+- Zero errors (Safari)
+- Zero warnings (Safari)
   - Ignore these warnings: 
     - `[Deprecation] Application Cache is restricted to secure contexts. Please consider migrating your application to HTTPS, and eventually shifting over to Service Workers. See https://goo.gl/rStTGz for more details.`
+      - `ApplicationCache is deprecated. Please use ServiceWorkers instead. Selected Element`
 
 
 ## How to Submit
